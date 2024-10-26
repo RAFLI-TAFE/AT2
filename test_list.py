@@ -14,7 +14,7 @@ class TestListFunctions(unittest.TestCase):
     def test_delete_value(self):
         test_list = ["Rafli", "Tom Hanks", "Brad Pitt"]
         delete_value(test_list, "Tom Hanks")  # Delete "Tom Hanks"
-        self.assertEqual("Rafli", "Brad Pitt test_list)  # Check if "Tom Hanks" is removed
+        self.assertEqual("Rafli", "Brad Pitt" test_list)  # Check if "Tom Hanks" is removed
 
     def test_delete_not_found(self):
         test_list = ["Rafli", "Tom Hanks"]
